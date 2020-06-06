@@ -58,7 +58,7 @@ class BottomSheetFragment(val mCtx: Context) : BottomSheetDialogFragment() {
         etNotificationText.editText!!.setText(
             sharedPref.getString(
                 AppUtils.NOTIFICATION_MSG_KEY,
-                "Hey... Lets drink some water...."
+                "It's Time! Drink Water and update me!"
             )
         )
         currentToneUri = sharedPref.getString(
